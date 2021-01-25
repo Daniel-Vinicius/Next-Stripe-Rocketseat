@@ -26,8 +26,8 @@ const CheckoutButton: React.FC<Props> = ({ skuId, itemName }) => {
       // successUrl: `http://localhost:3000/success?itemName=${itemName}`,
       // cancelUrl: "http://localhost:3000/cancel",
       // Para Meu Deploy
-      successUrl: `next-stripe-rocketseat.vercel.app/success?itemName=${itemName}`,
-      cancelUrl: "next-stripe-rocketseat.vercel.app/cancel",
+      successUrl: `https://next-stripe-rocketseat.vercel.app/success?itemName=${itemName}`,
+      cancelUrl: "https://next-stripe-rocketseat.vercel.app/cancel",
     });
 
     if (error) {
